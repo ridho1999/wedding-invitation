@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pria & Wanita Wedding</title>
+  <title>Pengantin Pria & Pengantin Wanita Wedding</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
@@ -30,7 +30,7 @@
     class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
       <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
-      <h1>Pria & Wanita</h1>
+      <h1>Pengantin Pria & Pengantin Wanita</h1>
       <p>Akan melangsungkan resepsi pernikahan dalam:</p>
       <div class="simply-countdown"></div>
       <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
@@ -98,7 +98,7 @@
               <img src="img/pengantin_wanita.png" alt="Pengantin Wanita" class="img-responsive rounded-circle">
             </div>
             <div class="col-8">
-              <h3>Pengantin Perempuan</h3>
+              <h3>Pengantin Wanita</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque praesentium aut ipsa perferendis,
                 incidunt soluta?</p>
               <p>Putra dari Bpk. Ipsum <br> dan <br> Ibu Lorem</p>
@@ -115,11 +115,10 @@
       <div class="row justify-content-center">
         <div class="col-md-8 col-10 text-center">
           <h2>Informasi Acara</h2>
-          <p class="alamat">Alamat: Gedung BCA, Grand Indonesia. <br> Jln M.H Thamrin No.1 Jakarta Selatan</p>
+          <p class="alamat">Alamat: Ballroom Grand Indonesia. <br> Jl. M.H. Thamrin No.1, Thamrin, Jakarta Pusat</p>
 
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15866.329634470709!2d106.83023359999999!3d-6.186598399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1718942229947!5m2!1sid!2sid" 
-            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15866.329634470709!2d106.8302336!3d-6.1865984!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1718952131874!5m2!1sid!2sid" 
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
           <a href="https://maps.app.goo.gl/KGqR9jqywiqQwBct9" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk
             membuka peta</a>
@@ -202,7 +201,7 @@
 
             </li>
             <li class="timeline-inverted">
-              <div class="timeline-image" style="background-image: url(img/gallery/wedding_1.png);"></div>
+              <div class="timeline-image" style="background-image: url(https://picsum.photos/300/300);"></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h3>Mulai Serius</h3>
@@ -217,7 +216,7 @@
 
             </li>
             <li>
-              <div class="timeline-image" style="background-image: url(img/gallery/wedding_2.jpeg);"></div>
+              <div class="timeline-image" style="background-image: url(https://picsum.photos/301/301);"></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h3>Tunangan</h3>
@@ -245,13 +244,10 @@
         </div>
       </div>
 
-      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
-        <div class="col mt-3">
-          <a href="img/gallery/wedding_1.png" data-toggle="lightbox" data-caption="Pengantin 1" data-gallery="mygallery">
-            <img src="img/gallery/thumbnail/1.png" alt="Pengantin 1" class="img-fluid w-100 rounded">
-          </a>
-        </div>
+      <div class="row" id="imageContainer">
+        <!-- Images will be dynamically added here -->
       </div>
+
     </div>
   </section>
 
@@ -311,16 +307,16 @@
         <div class="col-md-6">
           <ul class="list-group">
             <li class="list-group-item">
-              <div class="fw-bold">Tipe Rekening</div>
-                norek Pengantin Pria
+              <div class="fw-bold">Norek Pribadi</div>
+              123456789 - Pengantin Pria
             </li>
             <li class="list-group-item">
-              <div class="fw-bold">Tipe Rekening</div>
-                Norek Pengantin Wanita
+              <div class="fw-bold">Norek Pribadi</div>
+              987654321 - Pengantin Wanita
             </li>
             <li class="list-group-item">
-              <div class="fw-bold">Saweria</div>
-              <img src="img/image_for_qris.png" alt="QRIS" class="img-thumbnail" width="150">
+              <div class="fw-bold">QR Code</div>
+              <img src="img/qris_image.png" alt="QR Code" class="img-thumbnail" width="150">
             </li>
           </ul>
         </div>
@@ -332,7 +328,7 @@
     <div class="container">
       <div class="row">
         <div class="col text-center">
-          <small class="block">&copy; 2024 Undangan Wedding. All Rights Reserved.</small>
+          <small class="block">&copy; 2024 Invitation Wedding. All Rights Reserved.</small>
           <small class="block">Design by <a href="https://instagram.com/ridhopangaribuan_">@ridhopangaribuan_</a>.</small>
 
           <ul class="mt-3">
@@ -471,6 +467,43 @@
 
     document.querySelector('#nama').value = nama;
   </script>
+  <script>
+        // Function to fetch images from a folder
+        function fetchImages() {
+            const imageFolder = 'img/gallery/'; // Path to your images folder
+            const imageContainer = document.getElementById('imageContainer');
+
+            // List of image file names (you can fetch this dynamically if needed)
+            const imageFiles = [
+                'wedding_1.png',
+                'wedding_2.jpeg',
+                'wedding_3.jpeg',
+                'wedding_4.jpeg',
+                'wedding_5.jpeg'
+                // Add more image filenames as needed
+            ];
+
+            // Loop through the image files and create <img> elements
+            imageFiles.forEach(fileName => {
+                const imgElement = document.createElement('img');
+                imgElement.src = imageFolder + fileName;
+                imgElement.alt = fileName; // Use filename as alt text for simplicity
+
+                const divElement = document.createElement('div');
+                divElement.classList.add('col-md-4', 'col-sm-6'); // Bootstrap classes for grid layout
+                divElement.innerHTML = '<div class="gallery-item"></div>'; // Optional: add additional classes or structure
+
+                divElement.querySelector('.gallery-item').appendChild(imgElement);
+                imageContainer.appendChild(divElement);
+            });
+        }
+
+        // Call fetchImages function when the page loads
+        window.onload = function() {
+            fetchImages();
+        };
+    </script>
+
 </body>
 
 </html>
